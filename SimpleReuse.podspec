@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SimpleReuse"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Reuse code with SimpleReuse."
   spec.description  = "No discription at this time"
   spec.homepage     = "https://github.com/KratikaVolumetree/flyReuse"
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   
   spec.platform     = :ios, "14.0"
 
-  spec.source       = { :git => "https://github.com/KratikaVolumetree/flyReuse.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/KratikaVolumetree/flyReuse.git", :tag => spec.version.to_s}
 
   spec.source_files  = "flyReuse/**/*.{swift}"
   spec.swift_versions = "5.0"
